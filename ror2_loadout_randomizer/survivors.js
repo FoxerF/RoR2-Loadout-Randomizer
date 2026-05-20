@@ -11,6 +11,8 @@ import { mul_t } from "./survivors/mul_t.js";
 import { railgunner } from "./survivors/railgunner.js";
 import { rex } from "./survivors/rex.js";
 import { void_fiend } from "./survivors/void_fiend.js";
+import { operator } from "./survivors/operator.js";
+import { drifter } from "./survivors/drifter.js";
 
 let survivor_list = [
     acrid,
@@ -25,7 +27,9 @@ let survivor_list = [
     mercenary,
     rex,
     railgunner,
-    void_fiend
+    void_fiend,
+    operator,
+    drifter
 ];
 
 export function randomizeSurvivor(seed) {

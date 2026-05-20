@@ -17,7 +17,7 @@ function fadeIn() {
 
     var tl = anime.timeline({
         easing: "easeInOutCubic",
-        duration: 300,
+        duration: 120,
         complete: function(anim) {
             can_randomize = true;
         }
@@ -36,8 +36,8 @@ function fadeIn() {
         targets: ".skillitem",
         translateX: [-20, 0],
         opacity: [0, 1],
-        delay: anime.stagger(300),
-        duration: 550
+        delay: anime.stagger(0),
+        duration: 0
     });
 
     // Opacity change 2
@@ -53,8 +53,8 @@ function fadeIn() {
         targets: ".artifact-image",
         scale: [0, 1],
         opacity: [0, 1],
-        delay: anime.stagger(200, {grid: [4, 4], from: "center"}),
-        duration: 550
+        delay: anime.stagger(0, {grid: [4, 4], from: "center"}),
+        duration: 0
     });
 
     // Artifact items
@@ -62,8 +62,8 @@ function fadeIn() {
         targets: ".artifact-box",
         translateX: [-20, 0],
         opacity: [0, 1],
-        delay: anime.stagger(300),
-        duration: 550
+        delay: anime.stagger(0),
+        duration: 0
     });
 
     // Opacity change 3
